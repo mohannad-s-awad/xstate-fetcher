@@ -1,0 +1,44 @@
+{
+  "name": "xstate-fetcher",
+  "version": "0.1.3",
+  "description": "Advanced fetching and caching for Xstate",
+  "keywords": [
+    "xstate",
+    "cache",
+    "fetch",
+    "query",
+    "mutation"
+  ],
+  "author": {
+    "name": "Mohannad Al-Awad",
+    "email": "mohannad.s.alawad@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohannad-s-awad/xstate-fetcher.git"
+  },
+  "homepage": "https://github.com/mohannad-s-awad/xstate-fetcher",
+  "main": "lib/xstate-fetcher.js",
+  "module": "lib/xstate-fetcher.mjs",
+  "types": "lib/xstate-fetcher.d.ts",
+  "scripts": {
+    "test": "vitest",
+    "build": "vite build && dts-bundle-generator --config dts.config.js"
+  },
+  "packageManager": "yarn@3.2.2",
+  "devDependencies": {
+    "@types/lodash-es": "^4",
+    "@yarnpkg/sdks": "^3.0.0-rc.14",
+    "dts-bundle-generator": "^6.12.0",
+    "lodash-es": "^4.17.21",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.8",
+    "vitest": "^0.22.1",
+    "xstate": "^4.33.2"
+  },
+  "peerDependencies": {
+    "xstate": "^4.33.2"
+  }
+}

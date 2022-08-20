@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "name": "Test",
+      "request": "launch",
+      "runtimeExecutable": "yarn",
+      "runtimeArgs": ["test", "${relativeFile}"],
+      "skipFiles": ["<node_internals>/**"],
+      "smartStep": true,
+      "console": "integratedTerminal"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "debug.toolBarLocation": "docked",
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.experimental.stickyScroll.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.showSlider": "always",
+  "editor.rulers": [80],
+
+  "explorer.autoReveal": "focusNoScroll",
+  "explorer.fileNesting.patterns": {
+    "*.mjs": "${capture}.mjs.map",
+    "*.ts": "${capture}.test.ts, ${capture}.typegen.ts",
+    "*.d.ts": "${capture}.d.ts.map"
+  },
+
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.useAliasesForRenames": false,
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+
+  "[git-commit]": {
+    "editor.rulers": [72],
+
+    "workbench.editor.restoreViewState": false
+  }
+}

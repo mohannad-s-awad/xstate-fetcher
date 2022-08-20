@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "useDefineForClassFields": true,
+
+    "baseUrl": ".",
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "paths": { "@src/*": ["src/*"] },
+    "types": ["@types/lodash-es"],
+    "resolveJsonModule": true,
+
+    "noEmit": true,
+
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "preserveSymlinks": true,
+
+    "strict": true
+  },
+  "include": ["src/**/*.ts"]
+}
