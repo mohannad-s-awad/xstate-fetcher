@@ -8,6 +8,7 @@
   "editor.rulers": [80],
 
   "explorer.autoReveal": "focusNoScroll",
+  "explorer.compactFolders": false,
   "explorer.fileNesting.patterns": {
     "*.mjs": "${capture}.mjs.map",
     "*.ts": "${capture}.test.ts, ${capture}.typegen.ts",
